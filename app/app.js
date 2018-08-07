@@ -42,7 +42,6 @@ class App {
     rowData.forEach(elData => {
       table.addChild(new RowComponent({data: elData}, 'tr'))
     });
-    // table.addChild(new RowComponent({data: rowData}, 'tr'))
 
     return table.render();
   }
