@@ -1,4 +1,3 @@
-console.log('app')
 
 const rowData = [
   {
@@ -20,7 +19,6 @@ class App {
   }
 
   run() {
-    console.log('app runned')
     const rootContainer = document.getElementById(this._renderTo);
 
     rootContainer.appendChild(this._buildTable());
